@@ -1,0 +1,21 @@
+H1{
+    font-family: cursive;
+    
+}
+Body{
+    font-family:serif;
+    
+}
+
+div{
+    flex-flow: wrap;
+    flex-direction:column-reverse;
+}
+h2{
+    font-family: fantasy;
+}
+p{
+    font-family:cursive;
+    font-size:20;
+    
+}

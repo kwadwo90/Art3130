@@ -17,5 +17,10 @@ h2{
 p{
     font-family:cursive;
     font-size:20;
-    
+    border-top-style: double;
+    border-right-style:groove ;
+}
+
+section{
+    font-family:inherit
 }

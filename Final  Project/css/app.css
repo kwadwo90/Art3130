@@ -47,6 +47,18 @@ img {
     overflow-y: auto;
     
 }
+.cont{
+     height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    overflow-y: auto;
+    
+    
+}
 .serv{
      height: 100%;
     width: 100%;

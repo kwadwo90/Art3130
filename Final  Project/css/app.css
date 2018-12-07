@@ -40,7 +40,7 @@ img {
      height: 100%;
     width: 100%;
     margin: auto;
-    background-color: white;
+    background-color: whitesmoke;
     background-size: cover;
     min-height: 100vh;
     position: relative;
@@ -51,7 +51,7 @@ img {
      height: 100%;
     width: 100%;
     margin: auto;
-    background-color: white;
+    background-color:whitesmoke;
     background-size: cover;
     min-height: 100vh;
     position: relative;
@@ -63,7 +63,7 @@ img {
      height: 100%;
     width: 100%;
     margin: auto;
-    background-color: white;
+    background-color: whitesmoke;
     background-size: cover;
     min-height: 100vh;
     position: relative;
@@ -74,7 +74,7 @@ img {
     height:auto;
     width: 100%;
     margin: auto;
-
+    background-color: whitesmoke;
     position: relative;
 
     
@@ -117,11 +117,33 @@ h1{
     padding: 10px;
 }
 
-nav{
+.off-canvas{
     float: left;
-    padding: 5% 5% 0 0;
-    height: 50px;
+    background-color: black;
     
+
+}
+.off-canvas ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%
+    
+}
+.off-canvas ul li{
+     font-family: 'Raleway' , sans-serif;
+    font-size: 25px;
+    padding: 8px 8px 8px 18px;
+}
+.off-canvas ul li a {
+     color: #FFF;
+    text-decoration: none;
+    
+    
+}
+.off-canvas ul li a:hover{
+    text-decoration: underline;
 }
 
 nav ul{
@@ -184,12 +206,12 @@ nav:hover ul {
 }
 .one-third-port {
     width: 29.333333%;
-    padding: 2%;
+    padding: 1%;
     float: left;
 }
 
 .one-third-port img:hover {
-    opacity: .6;
+    opacity: .4;
 }
 .contact p {
     text-align: center;
@@ -253,6 +275,13 @@ footer.second p {
         left: 23px;
         top: 34px;
         width: 50%;
+    }
+    .off-canvas ul, off-canvas:active ul {
+         padding: 8px 0;
+        left: 23px;
+        top: 34px;
+        width: 50%;
+        font-size: 18px;
     }
     .inner {
         font-size: 120%;

@@ -4,36 +4,42 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>Kaypixel Pictures</title>
     <link rel="stylesheet" href="../css/foundation.css">
     <link rel="stylesheet" href="../css/app.css">
 
   </head>
   <body>
 
+ <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      <ul>
+         <li><a href="../index.html">Home</a></li>
+         <li><a href="../about/index.html">About Me</a></li>
+         <li style="color: white;">Portfolio</li>
+         <li><a href="../service/index.html">Service</a></li>
+        <li><a href="../contact/index.html">Contact</a></li>
+      </ul>
+    </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="grid-x">
+               <div class="medium-1 cell " style="background-color:black;">
+
+
+               <section class="intro">
 
 
 
+                 <button type="button" id="menu-icon" class="button" data-toggle="offCanvas"></button>
 
 
-      <div class="grid-x">
-          <div class="medium-1 cell" style="background-color: black;">
-                 <section class="intro">
-                 <nav>
-                       <a href="#" id="menu-icon"></a>
-               <ul>
-               <li><a href="../index.html">Home</a></li>
-               <li><a href="../about/index.html">About Me</a></li>
-               <li style="color: white;">Portfolio</li>
-               <li><a href="../service/index.html">Service</a></li>
-               <li><a href="../contact/index.html">Contact</a></li>
-
-
-                 </ul>
-                </nav>
                 </section>
                 </div>
 
+
+
+
+     
 
          <div class="medium-11 cell porto">
 
@@ -50,59 +56,229 @@
                   <img src="../Pics/IMG_2596-Edit.jpg" alt="">
               </div>
               <div class="small-12 medium-3 cell">
-                  <p>Caption for this image.</p>
+                  <p>Outdoor portrait.</p>
               </div>
           </div>
-
-
           <button class="close-button" data-close aria-label="Close reveal" type="button">
             <span aria-hidden="true">&times;</span>
-          </button>
+          </button> 
       </div>
+      
       </section>
        <section class="one-third-port">
+        <button data-toggle="image2" >
        <img src="../Pics/IMG_2715-Edit.jpg" alt="">
+        </button>
+        
+     <div class="full reveal" id="image2" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_2715-Edit.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Prom Portrait</p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
+        
       </section>
+        
 
         <section class="one-third-port">
-      <img src="../Pics/IMG_3470-Edit.jpg" alt="">
+           <button data-toggle="image3" >
+              <img src="../Pics/IMG_3470-Edit.jpg" alt="">
+            </button>
+            
+              <div class="full reveal" id="image3" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_3470-Edit.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Fitness </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
       </section>
+        
          <section class="one-third-port">
-       <img src="../Pics/IMG_4632-Edit.jpg" target="_blank" alt="">
+         <button data-toggle="image4" >
+            <img src="../Pics/IMG_4632-Edit.jpg"  alt="">
+        </button>
+        <div class="full reveal" id="image4" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_4632-Edit.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Birthday Photo shoot </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
+        
       </section>
 
           <section class="one-third-port">
-       <img src="../Pics/IMG_3993.jpg" target="_blank" alt="">
+        <button data-toggle="image5" >
+           <img src="../Pics/IMG_3993.jpg"  alt="">
+        </button>
+        <div class="full reveal" id="image5" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_3993.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Engagement Portrait </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
       </section>
 
        <section class="one-third-port">
-       <img src="../Pics/IMG_4783.jpg" target="_blank" alt="">
+         <button data-toggle="image6" >
+          <img src="../Pics/IMG_4783.jpg" alt="">
+         </button>
+          <div class="full reveal" id="image6" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_4783.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Fashion </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
       </section>
 
          <section class="one-third-port">
-       <img src="../Pics/IMG_3173.jpg" target="_blank" alt="">
+          <button data-toggle="image7" >
+            <img src="../Pics/IMG_3173.jpg" alt="">
+         </button>
+         <div class="full reveal" id="image7" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_3173.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Family Portrait </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
+      </section>
+
+    <section class="one-third-port">
+            <button data-toggle="image8" >
+               <img src="../Pics/IMG_2367-Edit.jpg"  alt="">
+           </button>
+           <div class="full reveal" id="image8" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_2367-Edit.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Fashion </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
       </section>
 
             <section class="one-third-port">
-       <img src="../Pics/IMG_2367-Edit.jpg" target="_blank" alt="">
-      </section>
-
-            <section class="one-third-port">
-       <img src="../Pics/IMG_2232.jpg" target="_blank" alt="">
+          <button data-toggle="image9" >  
+           <img src="../Pics/IMG_2232.jpg"  alt="">
+        </button>
+          <div class="full reveal" id="image9" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_2232.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Fashion </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
       </section>
 
 
            <section class="one-third-port">
-       <img src="../Pics/IMG_2643.jpg" target="_blank" alt="">
+        <button data-toggle="image10" > 
+             <img src="../Pics/IMG_2643.jpg"  alt="">
+        </button>
+         <div class="full reveal" id="image10" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_2643.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Outdoor Portrait </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
       </section>
 
 
            <section class="one-third-port">
-       <img src="../Pics/IMG_3356-Edit.jpg" target="_blank" alt="">
+           <button data-toggle="image11" > 
+       <img src="../Pics/IMG_3356-Edit.jpg"  alt="">
+         </button>
+          <div class="full reveal" id="image11" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_3356-Edit.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Fashion Portrait </p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
       </section>
 
            <section class="one-third-port">
-       <img src="../Pics/IMG_2201.jpg" target="_blank" alt="">
+          <button data-toggle="image12" >  
+              <img src="../Pics/IMG_2201.jpg" alt="">
+     </button>
+     <div class="full reveal" id="image12" data-reveal>
+          <div class="grid-x grid-padding-x">
+              <div class="small-12 medium-9 cell">
+                  <img src="../Pics/IMG_2201.jpg" alt="">
+              </div>
+              <div class="small-12 medium-3 cell">
+                  <p>Lifestyle Portrait</p>
+              </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+      </div>
       </section>
 
 
@@ -114,7 +290,7 @@
 
       </div>
 
-
+      </div>
 
 
 
